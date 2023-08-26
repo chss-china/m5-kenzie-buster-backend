@@ -1,5 +1,16 @@
 # M5 - Kenzie Buster
-
+## Descrição
+Neste projeto, desenvolvi uma api para gerenciar usuários, filmes e compras, com recursos de autenticação e permissões personalizadas para diferentes tipos de usuários. o Projeto foi feito com Python e o framework Django. Configuração do projeto: Configuração inicial do projeto, incluindo o arquivo .gitignore, ambiente virtual ( venv) e lista de dependências ( requirements.txt).
+Customização do modelo de usuário: Personalização do modelo de usuário para atender aos requisitos específicos do projeto.
+Registro de modelos no Django Admin: Registro dos modelos no Django Admin para facilitar a administração e visualização dos dados.
+Implementação de serializadores convencionais: Criação de serializadores para serializar e desserializar objetos relacionados a usuários, filmes e compras.
+Validação personalizada: Implementação de validações personalizadas nos serializadores para garantir a integridade dos dados.
+Sobrescrita de métodos de serializadores: Personalização de métodos nos serializadores para adaptá-los às necessidades específicas do projeto.
+Proteção de rotas com autenticação JWT e permissão customizada: Implementação de autenticação baseada em JWT e permissões personalizadas para controlar o acesso às rotas.
+Tabela Pivô customizada: Criação de uma tabela pivô personalizada para lidar com a associação entre usuários, filmes e compras.
+Campos de escolha para atributos de modelo: Adição de campos de escolha em certos modelos para limitar as opções disponíveis para determinados atributos.
+Paginação com APIView: Implementação da funcionalidade de paginação para dividir os resultados em várias páginas e melhorar a eficiência da navegação pelos dados.
+Foi implementado 40 testes e passei em todos
 ## Instalação dos pacotes de teste
 
 - Verifique se os pacotes `pytest` e/ou `pytest-testdox` estão instalados globalmente em seu sistema:
